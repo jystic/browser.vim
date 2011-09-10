@@ -879,7 +879,7 @@ mappings.
     default search engine.  Only available if "plugin/browser_extra.vim" is
     installed. This is a global mapping.  (|:Search|).
 
- *  <C-K>: Look up the word under the cursor in the current default keyword
+ *  <C-I>: Look up the word under the cursor in the current default keyword
     look up facility. Only available if "plugin/browser_extra.vim" is
     installed. This is a global mapping. (|:Keyword|).
 
@@ -1002,7 +1002,7 @@ purpose and specific search engines. Several commands make use of this file:
                  selected in the visual region, if used for {visual}.
                  {startup}
 
-<C-K>                                           *browser-<C-K>*
+<C-I>                                           *browser-<C-K>*
 :Keyword[!] [word]                              *:Keyword*
                  Same as |:Search|, but at only one word is allowed, and uses
                  |g:browser_keyword_search| instead of

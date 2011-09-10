@@ -34,7 +34,7 @@ endfunction
 
 BrowserCommand -bang -bar -nargs=* Keyword 
 
-nnoremap <unique> <C-K> :Keyword<CR>
+nnoremap <unique> <C-I> :Keyword<CR>
 
 " search using google
 command! -bang -bar -nargs=* Google SearchUsing<bang> google <args>

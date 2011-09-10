@@ -1026,7 +1026,7 @@ installed. This is a global mapping.  (L</:Search[!] [words]>).
 
 =item *
 
-<C-K>: Look up the word under the cursor in the current default keyword look up 
+<C-I>: Look up the word under the cursor in the current default keyword look up 
 facility. Only available if F<plugin/browser_extra.vim> is installed. This is 
 a global mapping. (L</:Keyword[!] [word]>).
 
@@ -1168,7 +1168,7 @@ in the F<vim.vim> plugin, etc.
 <C-S> searches the word under the cursor, or the words selected in the visual 
 region, if used for {visual}. {startup}
 
-=item <C-K> X< browser-E<lt>C-KE<gt> >
+=item <C-I> X< browser-E<lt>C-KE<gt> >
 
 =item :Keyword[!] [word]
 
